@@ -164,24 +164,32 @@
         </div>
     </section>
 
-    <hr>
 
     <section class="Contact" id="Contact">
         <a name="Contact">
-            <h2 class="Section_header">Content Me</h2>
+            <h2 class="Section_header">Contact Me</h2>
         </a>
-        <Form>
-            <label for="name">Name:</label>
-            <input type="text" id="name"> <br>
-            <label for="email">Email:</label>
-            <input type="text" id="email"> <br>
-            <label for="problem">Problem:</label>
-            <input type="text" id="problem"> <br>
-            <label for="date">Date:</label>
-            <input type="date" name="date" id="date"> <br>
-            <button type="submit">Sant</button>
-        </Form>
-
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="problem">Problem:</label>
+                    <textarea id="problem" placeholder="Describe your problem" rows="5" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" required>
+                </div>
+                <button type="submit" class="submit-button">Send</button>
+            </form>
+        </div>
     </section>
 
     <footer>
