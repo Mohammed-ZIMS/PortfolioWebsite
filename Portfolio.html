@@ -9,73 +9,178 @@
     <title>Md. Zahidul Islam Mehedi</title>
 </head>
 <body>
-    <section class="Home">
-        <nav>
+    <section class="Home contaned">
+        <nav class="navbar">
             <div class="logo">
                 <a href="#">
-                    <img src="./img/signature Mohammed ZIMS.png" alt="logo" title="Logo">
+                    <img src="./img/signature Mohammed ZIMS.png" alt="logo" title="Logo" id="logo">
                 </a>
             </div>
-
+        
             <ul class="nav-list">            
                 <li class="itam"><a href="Portfolio.html" title="Home">Home</a></li>
                 <li class="itam"><a href="#AboutMe" title="About Me">About</a></li>
-                <li class="itam"><a href="#Activities" title="My Activities">My Activities</a></li>
-                <li class="itam"><a href="#Extera-curricular_Activities" title="Extera-curricular Activities">Extera-curricular_Activities</a></li>
-                <li class="itam"><a href="#Contact " title="Contact Me">Contact </a></li> 
+                <li class="itam"><a href="#Portfolio" title="My Portfolio">My Portfolio</a></li>
+                <li class="itam"><a href="#Extera-curricular_Activities" title="Extera-curricular Activities">Extera-curricular Activities</a></li>
+                <li class="itam"><a href="#Contact" title="Contact Me">Contact</a></li> 
             </ul>
-    
         </nav>
+        
+        <div class="contaned" >
+            
+            <div class="col-left">
+                <h1 class="h1">Welcome,<samp></samp></h1><br>
+                <h1 class="h1">My name is<samp></samp></h1><br>
+                <h1 class="h1">Md. Zahidul Islam Mehedi<samp></samp></h1>
+            </div>
+            
+        </div>
 
-    </section>   
+    </section>
+    <hr>  
 
+    
     <section class="AboutMe" id="AboutMe">
         <a name="AboutMe">
             <h2 class="Section_header">About Me</h2>
         </a>
-        <div>
+        <div class="about-container">
             <div class="leftAboutMe">
-                <p>My name is Md. Zahidul Islam Mehedi.</p>
-                <p>I am currently studing Computer Science and Engineering at R.P. Shaha University.I hava a strong passion for technology and software development. My interests include reciting Bengali poetry, which allows me to explore the beauty of language and literature. I was born and raiset in Narayanganj.</p>
-
-                <a href="./file/CV.pdf" alt="Dowload My CV" title="Dowload My CV">Dowload My CV</a>
+                <p class="intro-text">Hi, I'm <span class="highlight">Md. Zahidul Islam Mehedi</span>.</p>
+                <p class="description">
+                    I am currently studying <span class="highlight">Computer Science and Engineering</span> at R.P. Shaha University. I have a strong passion for technology and software development. My interests include reciting Bengali poetry, which allows me to explore the beauty of language and literature. I was born and raised in Narayanganj.
+                </p>
+                <a href="./file/CV.pdf" class="cv-button" download>
+                    Download My CV
+                </a>
             </div>
-
-            <div class="rihgtAbout">
-                <img src="./img/MyPic0.jpg" alt="My Photo" title="My Photo">
+    
+            <div class="rightAbout">
+                <div class="image-container">
+                    <img src="./img/MyPic0.jpg" alt="My Photo" title="My Photo" class="profile-image">
+                </div>
             </div>
-
         </div>
     </section>
 
-    <section class="Activities" id="Activities">
-        <a name="Activities">
-            <h2 class="Section_header">My Activities</h2>
-        </a>
 
-        <div class="sectionActivities">
-            <div class="leftActivitiesSkills">
+    <section class="Portfolio" id="Portfolio">
+        <a name="Portfolio">
+            <h2 class="Section_header">My Portfolio</h2>
+        </a>
+    
+        <div class="sectionPortfolio">
+            <!-- Skills Section -->
+            <div class="left PortfolioSkills">
                 <h3 class="skillsHeader">My Skills</h3>
-                <div class="skill"><a href=""><span>Java</span></a></div> <br>
-                <div class="skill"><a href=""><span>C/C++</span></a></div> <br>
-                <div class="skill"><a href=""><span>Javascript</span></a></div> <br>
-                <div class="skill"><a href=""><span>React</span></a></div> <br>
-                <div class="skill"><a href=""><span>SQl</span></a></div> <br>
-                <div class="skill"><a href=""><span>Python</span></a></div> <br>
+                <div class="skills-grid">
+                    <div class="skill"><a href=""><span>Java</span></a></div>
+                    <div class="skill"><a href=""><span>C/C++</span></a></div>
+                    <div class="skill"><a href=""><span>Javascript</span></a></div>
+                    <div class="skill"><a href=""><span>React</span></a></div>
+                    <div class="skill"><a href=""><span>SQL</span></a></div>
+                    <div class="skill"><a href=""><span>Python</span></a></div>
+                </div>
+            </div>
+    
+            <!-- Projects Section -->
+            <div class="right ProjectPortfolio">
+                <h3>My Projects</h3>
+                <div class="projects-grid">
+                    <div class="projectDiv">
+                        <a href="">
+                            <span class="project-title">Electricity Billing System</span>
+                            <ul class="tech-stack">
+                                <li>Java</li>
+                                <li>SQL</li>
+                            </ul>
+                        </a>
+                    </div>
+                    <div class="projectDiv">
+                        <a href="">
+                            <span class="project-title">Crypto Trading Platform</span>
+                        </a>
+                    </div>
+                    <div class="projectDiv">
+                        <a href="">
+                            <span class="project-title">Chatbot</span>
+                        </a>
+                    </div>
+                    <div class="projectDiv">
+                        <a href="">
+                            <span class="project-title">Learning Management System</span>
+                        </a>
+                    </div>
+                    <div class="projectDiv">
+                        <a href="">
+                            <span class="project-title">Quiz on Bangladesh Game</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-
     </section>
 
     <section class="Extera-curricular_Activities" id="Extera-curricular_Activities">
-        <h2 class="Section_header">Extera-curricular Activities</h2>
-
+        <h2 class="Section_header">Extracurricular Activities</h2>
+    
+        <div class="sectionExtera-curricular">
+            <div class="Extera">
+                <div class="card">
+                    <img src="./img/red-cross.jpg" alt="Red Cross">
+                    <div class="card-content">
+                        <h4>Red Cross</h4>
+                        <p>Volunteered with the Red Cross to provide emergency assistance and disaster relief.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Extera">
+                <div class="card">
+                    <img src="./img/cub-scouts.jpg" alt="Cub Scouts">
+                    <div class="card-content">
+                        <h4>Cub Scouts</h4>
+                        <p>Participated in Cub Scouts, developing leadership and teamwork skills.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Extera">
+                <div class="card">
+                    <img src="./img/debate-club.jpg" alt="Debate Club">
+                    <div class="card-content">
+                        <h4>Debate Club</h4>
+                        <p>Engaged in public speaking and debate competitions, enhancing communication skills.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Extera">
+                <div class="card">
+                    <img src="./img/sports.jpg" alt="Sports">
+                    <div class="card-content">
+                        <h4>Sports</h4>
+                        <p>Played competitive sports, fostering teamwork and discipline.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <hr>
 
     <section class="Contact" id="Contact">
         <a name="Contact">
             <h2 class="Section_header">Content Me</h2>
         </a>
+        <Form>
+            <label for="name">Name:</label>
+            <input type="text" id="name"> <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email"> <br>
+            <label for="problem">Problem:</label>
+            <input type="text" id="problem"> <br>
+            <label for="date">Date:</label>
+            <input type="date" name="date" id="date"> <br>
+            <button type="submit">Sant</button>
+        </Form>
 
     </section>
 
